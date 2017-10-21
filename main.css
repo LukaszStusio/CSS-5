@@ -167,9 +167,35 @@ h1
 .photo5
 {
 	width: 450px;
+	height: 278px;
+	overflow: hidden;
+}
+
+.photo5 img
+{
+	transition: all .5s ease-in-out;
+}
+
+.photo5:hover img
+{
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
 }
 
 .photo6
 {
 	width: 450px;
+}
+
+.photo6 img
+{
+	transition: all .5s ease-in-out;
+}
+
+.photo6:hover img
+{
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
 }
