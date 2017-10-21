@@ -186,16 +186,18 @@ h1
 .photo6
 {
 	width: 450px;
+	height: 278px;
+	overflow: hidden;
 }
 
 .photo6 img
 {
-	transition: all .5s ease-in-out;
+	transition: all .7s ease-in-out;
 }
 
 .photo6:hover img
 {
-	-webkit-transform: scale(1.15);
-	-ms-transform: scale(1.15);
-	transform: scale(1.15);
+	-webkit-transform: scale(1.2) rotate(-5deg); 
+	-ms-transform: scale(1.2) rotate(-5deg);
+	transform: scale(1.2) rotate(-5deg);
 }
