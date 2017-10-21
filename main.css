@@ -67,12 +67,28 @@ h1
 .photo1
 {
 	width: 450px;
+	transition: all 0.2s ease-in-out;
 }
 
+.photo1:hover 
+{
+	-webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
+}
 
 .photo2
 {
 	width: 450px;
+	transition: transform .2s ease-in-out; /* zamiast 0.2s można też pisać .2s 8 */
+}
+
+.photo2:hover
+{
+	-webkit-transform: scale(0.95) rotate(5deg);
+	-ms-transform: scale(0.95) rotate(5deg);
+	transform: scale(0.95) rotate(5deg);
+	
 }
 
 .photo3
